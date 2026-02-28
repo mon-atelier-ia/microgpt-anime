@@ -20,7 +20,9 @@ export default defineConfig([
       globals: globals.browser,
     },
     rules: {
+      // modelRef.current used in render (mutable model state shared via ref, re-render via forceUpdate)
       'react-hooks/refs': 'off',
+      // useMemo deps inherited from upstream — not fixing until WASM refactor
       'react-hooks/preserve-manual-memoization': 'off',
       '@typescript-eslint/no-explicit-any': 'warn',
     },

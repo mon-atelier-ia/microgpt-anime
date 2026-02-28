@@ -1,8 +1,10 @@
 # microgpt anime
 
-> Visualiseur pedagogique GPT avec moteur Rust/WASM — apprendre les transformers en les voyant fonctionner.
+> Visualiseur pedagogique GPT — apprendre les transformers en les voyant fonctionner.
 
-Application web interactive pour visualiser et comprendre le fonctionnement des modeles GPT pas a pas. Le moteur ML tourne en Rust compile en WebAssembly, l'interface en React/TypeScript.
+<!-- @todo: mettre a jour quand WASM integre -->
+
+Application web interactive pour visualiser et comprendre le fonctionnement des modeles GPT pas a pas. L'interface est en React/TypeScript. Le moteur ML sera fourni par [microgpt-rs](https://github.com/mon-atelier-ia/microgpt-rs) compile en WebAssembly (en cours).
 
 ## Origine
 
@@ -24,12 +26,12 @@ pnpm dev
 
 ## Stack
 
-| Couche    | Technologie                        |
-| --------- | ---------------------------------- |
-| Moteur ML | Rust (microgpt-rs) compile en WASM |
-| Frontend  | React 19, TypeScript, Vite         |
-| Linting   | ESLint, Prettier                   |
-| Tests     | Vitest                             |
+| Couche    | Technologie                                  |
+| --------- | -------------------------------------------- |
+| Moteur ML | Rust (microgpt-rs) compile en WASM (a venir) |
+| Frontend  | React 19, TypeScript, Vite                   |
+| Linting   | ESLint, Prettier                             |
+| Tests     | Vitest                                       |
 
 ## Licence
 

@@ -1,4 +1,4 @@
-> **Note:** `CLAUDE.md` is a symlink to this file. `AGENTS.md` is the source of truth.
+> **Note:** `CLAUDE.md` is a copy of this file. `AGENTS.md` is the source of truth — edit this file, then copy to `CLAUDE.md`.
 
 ## Project
 

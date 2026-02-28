@@ -12,7 +12,5 @@ export default defineConfig({
     port: 4173,
     host: "0.0.0.0",
   },
-  test: {
-    environment: "jsdom",
-  },
+  // jsdom set per-file via // @vitest-environment jsdom (component tests only)
 });
