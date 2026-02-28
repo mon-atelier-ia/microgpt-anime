@@ -1,0 +1,16 @@
+node_modules/
+dist/
+*.local
+
+# Rust/WASM
+target/
+pkg/
+wasm-pack.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
